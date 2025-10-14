@@ -1,0 +1,7 @@
+# Conversion factor
+KG_TO_POUNDS = 3.2
+# Ask the user for weight in kilograms
+kg = float(input("Enter weight in kilograms: "))
+# Convert to pounds
+pounds = kg * KG_TO_POUNDS
+print(f"{kg} kilograms is equal to {pounds:.2f} pounds.")
